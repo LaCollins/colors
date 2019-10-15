@@ -1,4 +1,9 @@
 import 'bootstrap';
 import '../styles/main.scss';
+import arrayMethods from './arrayMethods';
 
-console.log('Boo');
+const init = () => {
+  arrayMethods.init();
+};
+
+init();
